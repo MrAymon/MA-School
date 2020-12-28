@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Excuses </title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="css/style.css" >
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/eb7dada2f7.js" crossorigin="anonymous"></script>
+        <style>
+            .here{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+                top: 84px;
+                
+            }
+            footer{
+                margin-top: 25%;
+            }
+            label, input, textarea{
+                margin:3%;
+            }
+            textarea{
+                margin:5%;
+                margin-top: 10%;
+            }
+            .det{
+                position: relative;
+                top:30px;
+            }
+            #done{
+                display:none;
+                color:rgb(17, 167, 17);
+            }
+            button{
+                margin-top: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <div class="image"> 
+                <h1 class="MA2">MA Secondary School</h1>
+            </div>
+
+        </header>
+        <section class="here">
+        <form>
+            <h3><label for="excuse">Make an Excuse for</label></h3><br/>
+
+
+            <input type="radio" value="Attending" name="excuse" required>
+            <label for="excuse">Attending</label><br>
+
+            <input type="radio" value="Giving Assignments" name="excuse" required>
+            <label for="excuse">Giving Assignments</label><br>
+
+            <input type="radio" value="Attend The Exam" name="excuse" required>
+            <label for="excuse">Attend The Exam</label><br>
+
+            <div class="det">
+            <h3><label for="details"> Type Details Here </label></h3><br>
+            <textarea rows="4" cols="50"></textarea>
+        </div>
+            
+        <button>Submit</button> 
+        
+
+            
+        </form>
+        
+    </section>
+    <footer>
+        <p>Copyright © 2020 All Rights Reserved for MA Secondary School.</p> 
+    </footer>
+    </body>
+</html>

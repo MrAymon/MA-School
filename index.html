@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Register / Login </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header class="welcome"> <h1>Welcome to <span class="MA">MA Secondary School</span></h1> </header>
+        <section class="forms">
+        <form class="register" action="MA-home.html">
+            
+            <h2> Sign Up </h2>
+            <p> To make an account please fill the form: </p>
+            <label for="fname"> Full Name :</label>
+            <input type="text" id="fname" required><br/>
+
+            <label for="code"> Code :</label>
+            <input type="number" id="code" required><br/>
+
+            <label for="email"> New Email :</label>
+            <input type="email" id="email" required><br/>
+
+            <label for="password"> New Password :</label>
+            <input type="password" id="password" required><br/>
+
+            <label for="nationid"> National ID :</label>
+            <input type="number" id="nationid" required><br/>
+            
+            <label for="gender"> Gender : </label><br/>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+
+            <input type="submit" class="submit">
+
+        </form>
+        <form class="login" action="MA-home.html">
+            <h2> Login </h2>
+            <p>Already have an accont? go ahead:</p>
+            
+            <label for="email"> Email :</label>
+            <input type="email" id="email" required><br/>
+
+            <label for="code"> Code :</label>
+            <input type="number" id="codelog" required><br/>
+
+            <label for="password"> Password :</label>
+            <input type="password" id="password" required><br/>
+            <input type="submit" class="submit" value="Login">
+        </form>
+    </section>
+    </body>
+</html>
